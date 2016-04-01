@@ -51,3 +51,7 @@ jQuery.fn.extend({
     	});
     },
 });
+
+$(function() {
+	jQuery.fn.buildBAse();
+});
