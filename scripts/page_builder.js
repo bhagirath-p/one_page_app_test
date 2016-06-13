@@ -11,17 +11,26 @@ jQuery.fn.extend({
 					"id"    : "header"
 				}))
 				.append($("<div/>", {
-					"class" : "nav",
-					"id"    : "nav"
-				}))
+					"class"  : "nav",
+					"id"     : "nav",
+				})
+					.css({
+						"height":"79px"
+					})
+				)
 				.append($("<div/>", {
 					"class" : "section",
 					"id"    : "section"
 				}))
 				.append($("<div/>", {
-					"class" : "footer",
-					"id"    : "footer"
-				}))
+					"class"  : "footer",
+					"id"     : "footer"
+				})
+					.css({
+						"height"   : "189px",
+						"bgcolor" : "blue"
+					})
+				)
 			)
 		);
 	},
